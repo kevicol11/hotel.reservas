@@ -1,0 +1,216 @@
+:root{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+background-image:url(amanecer_74190-169.avif);
+background-position: center center;
+background-size: cover;
+background-repeat:no-repeat ;
+background-attachment: fixed;
+}
+html {
+    scroll-behavior: smooth;
+}
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 2px solid red; */
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+a:hover {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+body {
+    font-family: var(--font-family);
+}
+nav {
+    background-color: lightskyblue;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1.5rem 3.5rem;
+    color: black;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    }
+    nav h1 {
+color: var(--color-primario);
+    }
+nav a {
+    color: var(--color-primario);
+    transition: var(--transicion);
+}
+nav a:hover {
+    color: var(--valor-secundario);
+    border-bottom: 2px solid var(--valor-secundario);
+}
+nav ul {
+    display: flex;
+    gap: 1.9rem;
+}
+nav ul li {
+    font-weight: var(--negrita);
+}
+.menu-hamburguesa {
+    color: var(--primary-color);
+    font-size: 2rem;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    display: none;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    
+    margin: auto;
+    }
+.hero img {
+    align-items: center;
+    
+    height: 50rem;
+    width: 120rem;
+}
+.sociales {
+    background: none;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 1%;
+    bottom: 50%;
+    }
+.socicon {
+    width: 2rem;
+    height: 2rem;
+    }
+.proyectos {
+    background-color: var(--bg-color);
+    padding: 32px 0;
+    margin-top: 2rem;
+}
+.foto-de-proyecto {
+    width: 100%;
+    height: 100%;
+}
+.contenedor-de-proyecto {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+    
+}
+.titulo-de-proyectos {
+    text-align: center;
+    margin-bottom: 1rem;
+    }
+
+.contenedor-de-proyecto p {
+    padding: 0.4rem;
+    }
+    .titulo-de-proyectos {
+    margin-bottom: var(--bottom-margin);
+    }
+    .detalles-de-proyecto {
+    margin-bottom: var(--bottom-margin);
+    }
+.tarjeta-de-proyecto {
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px var(--primary-shadow);
+    padding: 20px;
+    margin: 10px;
+    width: 20%;
+    }
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    
+    margin: auto;
+}
+.hero img {
+        height: 30rem;
+        width: 60rem;
+    }
+.bio {
+    width: 25rem;
+    padding: 0.625rem;
+    border-radius: 6px;
+    box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+}
+.bio h1 {
+    margin-bottom: var(--bottom-margin);
+}
+.bio p {
+    line-height: var(--line-height);
+    padding: 0.3rem 0;
+}
+.formulario {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.casilla {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.casillap {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #45a049;
+}
+.reserva {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.casillar{
+    display: block;
+    margin-bottom: 8px;
+}
+.casillai {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #45a049;
+}
